@@ -1,4 +1,4 @@
-resource "aws_dynamodb_table_item" "account-request" {
+resource "aws_dynamodb_table_item" "aft-request" {
   table_name = var.account-request-table
   hash_key   = var.account-request-table-hash
 

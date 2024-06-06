@@ -2,10 +2,10 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "<ACCOUNT EMAIL>"
+    AccountEmail              = "Aws-test-account@pureinsurance.com"
     AccountName               = "sandbox-aft"
-    ManagedOrganizationalUnit = "Learn AFT"
-    SSOUserEmail              = "<SSO EMAIL>"
+    ManagedOrganizationalUnit = "Sandbox (ou-wm0i-r3lpqkgx)"
+    SSOUserEmail              = "mchuey@pureinsurance.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
   }
